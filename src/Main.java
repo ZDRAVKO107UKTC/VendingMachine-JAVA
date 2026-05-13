@@ -15,7 +15,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // ── Composition root: wire all dependencies via interfaces ──
         VendingInventory inventory = new VendingInventory();
         new DefaultProductLoader().load(inventory);
 
